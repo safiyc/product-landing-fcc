@@ -15,16 +15,16 @@
   <header id="header" class="navbar fixed-top">
     <img src="assets/logo-bonsai.png" alt="logo" id="header-img">
     <nav id="nav-bar">
-      <a href="#products-anchor" class="nav-link nav-item">Products</a>
-      <a href="#prices-anchor" class="nav-link nav-item">Prices</a>
-      <a href="#video-anchor" class="nav-link nav-item">Presentation</a>
-      <a href="#about-anchor" class="nav-link nav-item">About</a>
+      <a href="#products-anchor" class="nav-link">Products</a>
+      <a href="#prices-anchor" class="nav-link">Prices</a>
+      <a href="#video-anchor" class="nav-link">Presentation</a>
+      <a href="#about-anchor" class="nav-link">About</a>
     </nav>
   </header>
   <div class="container">
     <h1>Bonsai!</h1>
     <div id="intro">
-      <img src="assets/product-placeholder.png" alt="bonsai watercolor">
+      <img src="assets/product-placeholder.png" alt="bonsai silhouette">
       <p id="haiku">
         Strange, but true. Believe.<br />
         A tree, small and trimmed. Bonsai!<br />
@@ -34,7 +34,7 @@
     <h2><span id="products-anchor"></span>Products</h2>
     <div id="products">
       <div class="product">
-        <h4>Bonsai 1</h4>
+        <h4>Maple Height</h4>
         <img src="assets/product-placeholder.png" alt="bonsai 1" class="product-img">
         <p class="product-desc">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias dicta sint inventore tenetur ipsam
@@ -44,7 +44,7 @@
         </p>
       </div>
       <div class="product">
-        <h4>Bonsai 2</h4>
+        <h4>Fig Figurine</h4>
         <img src="assets/product-placeholder.png" alt="bonsai 2" class="product-img">
         <p class="product-desc">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias dicta sint inventore tenetur ipsam
@@ -54,7 +54,7 @@
         </p>
       </div>
       <div class="product">
-        <h4>Bonsai 3</h4>
+        <h4>Bald Cypress</h4>
         <img src="assets/product-placeholder.png" alt="bonsai 3" class="product-img">
         <p class="product-desc">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias dicta sint inventore tenetur ipsam
@@ -63,43 +63,56 @@
           repellendus.
         </p>
       </div>
+      <a href="#" class="more-links">more products...</a>
     </div>
     <h2><span id="prices-anchor"></span>Our Prices</h2>
     <div id="prices">
       <div class="price-panel">
-        <p><strong>Maple</strong></p>
-        <p>bonus item: <strong>bell</strong></p>
+        <p><strong>Maple Height</strong></p>
+        <p>bonus item: <br />
+          <strong>bell</strong></p>
         <p><strong>$16</strong></p>
-        <button class="btn btn-success btn-block float-right">Buy</button>
+        <button class="btn btn-success btn-block float-md-right">Buy</button>
       </div>
       <div class="price-panel">
-        <p>name</p>
-        <p>bonus item: bell</p>
-        <p>price</p>
-        <button class="btn btn-success btn-block float-right">Buy</button>
+        <p><strong>Fig Figurine</strong></p>
+        <p>bonus item: <br />
+          <strong>talisman</strong></p>
+        <p><strong>$22</strong></p>
+        <button class="btn btn-success btn-block float-md-right">Buy</button>
       </div>
       <div class="price-panel">
-        <p>name</p>
-        <p>bonus item: bell</p>
-        <p>price</p>
-        <button class="btn btn-success btn-block float-right">Buy</button>
+        <p><strong>Bald Cypress</strong></p>
+        <p>bonus item: <br />
+          <strong>bell</strong></p>
+        <p><strong>$18</strong></p>
+        <button class="btn btn-success btn-block float-md-right">Buy</button>
       </div>
+      <a href="#" class="more-links">more products...</a>
     </div>
     <form action="https://www.freecodecamp.com/email-submit" id="form">
-      <input type="email" placeholder="enter email for updates on products..." id="email">
+      <input type="email" placeholder="email for product updates" id="email">
       <input class="btn btn-warning" type="submit" id="submit"></input>
     </form>
     <h2><span id="video-anchor"></span>Presentation</h2>
     <div id="presentation">
       <p>This video shows some of our Bonsai trees at a recent exibit.</p>
-      <iframe id="video" width="600" height="400" src="https://www.youtube.com/embed/eiZ6Nr8lItk">
+      <iframe id="video" src="https://www.youtube.com/embed/eiZ6Nr8lItk">
       </iframe>
     </div>
     <h2 id="about"><span id="about-anchor"></span>About</h2>
     <div id="about-content">
       <p>
+        <strong>This is a product landing page project for the freeCodeCamp front-end certification. Link to project
+          code in footer.</strong>
+      </p>
+      <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima quasi enim amet voluptatibus corporis cumque
         animi optio placeat illum odio ipsam vitae sapiente qui voluptates corrupti dicta, quis consequatur et.
+      </p>
+      <p>
+        Accusantium placeat nisi impedit perferendis quaerat, fugiat sapiente quae quibusdam! Fugiat rerum adipisci
+        earum fugit nihil corporis cum laudantium minima quae ducimus!
       </p>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste voluptatum, quod fuga atque fugit voluptates
@@ -110,10 +123,9 @@
       </p>
     </div>
   </div>
-  <hr />
   <footer>
-    <a href=""><strong>bonsai</strong> &nbsp;&nbsp; a freeCodeCamp front-end project &nbsp;&nbsp; by Safiy Cham
-      &nbsp;&#169;&nbsp; 2019</a>
+    <a href="http://www.safiycham.com/" target="_blank"><strong>bonsai</strong> a freeCodeCamp project <br />
+      by Safiy Cham&nbsp;&#169;&nbsp; 2019</a>
   </footer>
   <script src="js/script.js"></script>
 </body>
